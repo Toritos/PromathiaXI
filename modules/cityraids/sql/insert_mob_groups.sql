@@ -1,0 +1,5 @@
+INSERT INTO `mob_groups` (`groupid`, `poolid`, `zoneid`, `name`, `spawntype`, `minLevel`, `maxLevel`, `allegiance`) VALUES ('6', '10000', '210', 'CityRaid_20', '128', '26', '30', '1');
+INSERT INTO `mob_groups` (`groupid`, `poolid`, `zoneid`, `name`, `spawntype`, `minLevel`, `maxLevel`, `allegiance`) VALUES ('7', '10001', '210', 'CityRaid_20', '128', '26', '30', '1');
+
+INSERT INTO `mob_pools` (`poolid`, `name`, `packet_name`, `familyid`, `modelid`, `mJob`, `cmbDelay`, `name_prefix`, `entityFlags`, `spellList`, `namevis`, `resist_id`) VALUES ('10000', 'CityRaid_San', 'CityRaid_San', '145', 0x0000B70400000000000000000000000000000000, '7', '220', '8', '129', '4', '2', '145');
+INSERT INTO `mob_pools` (`poolid`, `name`, `packet_name`, `familyid`, `modelid`, `mJob`, `sJob`, `cmbDelay`, `name_prefix`, `entityFlags`, `spellList`, `namevis`, `resist_id`) VALUES ('10001', 'CityRaid_Win', 'CityRaid_Win', '145', 0x0000B70400000000000000000000000000000000, '8', '3', '220', '8', '129', '4', '2', '145');

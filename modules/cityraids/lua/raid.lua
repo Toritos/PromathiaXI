@@ -346,6 +346,8 @@ xi.raid.handleGilPayout = function(levelCap, players)
 
                 player:addGil(gil)
                 player:messageSpecial(zones[player:getZoneID()].text.GIL_OBTAINED, gil)
+                player:addItem(xi.item.DRAGON_CHRONICLES)
+                player:messageSpecial(zones[player:getZoneID()].text.ITEM_OBTAINED, xi.item.DRAGON_CHRONICLES)
             end
         end
     end
@@ -362,7 +364,7 @@ xi.raid.aggroGroups = function(group1, group2)
             local entity2 = GetMobByID(entityId2)
 
             if entity1 == nil or entity2 == nil then
-                printf('[warning] Could not apply aggro because either %i or %i are not valid entities', entityId1, entityId2)
+
             else
                 debugLogf('Applying enmity: %i <-> %i', entityId1, entityId2)
                 entity1:addEnmity(entity2, math.random(1, 5), math.random(1, 5))
@@ -619,6 +621,10 @@ xi.raid.tick = function(npc)
                         return
                     end
 
+                    if zoneData.state == xi.raid.state.ENDED then
+                       return
+                    end
+
                     local data = utils.randomEntry(zoneData.mobData)
 
                     local mob = zone:insertDynamicEntity({
@@ -839,7 +845,6 @@ xi.raid.loot =
 {
     [20] =
     {
-        { itemid = xi.item.DRAGON_CHRONICLES, droprate = 1000 },
         { itemid = xi.item.GARRISON_TUNICA,   droprate =  350 },
         { itemid = xi.item.GARRISON_BOOTS,    droprate =  350 },
         { itemid = xi.item.GARRISON_HOSE,     droprate =  350 },
