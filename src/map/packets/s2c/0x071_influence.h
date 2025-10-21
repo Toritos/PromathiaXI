@@ -1,7 +1,7 @@
 /*
 ===========================================================================
 
-  Copyright (c) 2010-2015 Darkstar Dev Teams
+  Copyright (c) 2025 LandSandBoat Dev Teams
 
   This program is free software: you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
@@ -19,24 +19,12 @@
 ===========================================================================
 */
 
-#ifndef _CCAMPAIGNPACKET_H
-#define _CCAMPAIGNPACKET_H
+#pragma once
 
 #include "common/cbasetypes.h"
 
-#include "basic.h"
-#include "campaign_system.h"
-
-class CCharEntity;
-
-class CCampaignPacket : public CBasicPacket
+enum class GP_SERV_COMMAND_INFLUENCE_MODE : uint8_t
 {
-public:
-    CCampaignPacket(CCharEntity* PChar, CampaignState const& state, uint8 number);
-
-private:
-    void SetRegions(const std::vector<CampaignRegion>& areas, int start = 0);
-    void SetNations(const std::vector<CampaignNation>& nations);
+    Campaign     = 2,
+    Colonization = 3,
 };
-
-#endif
