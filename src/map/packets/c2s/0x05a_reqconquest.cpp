@@ -23,7 +23,7 @@
 
 #include "campaign_system.h"
 #include "entities/charentity.h"
-#include "packets/conquest_map.h"
+#include "packets/s2c/0x05e_conquest.h"
 #include "packets/s2c/0x071_influence_campaign.h"
 #include "packets/s2c/0x071_influence_colonization.h"
 
@@ -35,11 +35,11 @@ auto GP_CLI_COMMAND_REQCONQUEST::validate(MapSession* PSession, const CCharEntit
 
 void GP_CLI_COMMAND_REQCONQUEST::process(MapSession* PSession, CCharEntity* PChar) const
 {
-    // CampaignState state = campaign::GetCampaignState();
+    PChar->pushPacket<GP_SERV_COMMAND_CONQUEST>(PChar);
 
-    PChar->pushPacket<CConquestPacket>(PChar);
     // TODO: This does not work reliably with multiple process.
     // World server needs to stream updates to all map servers.
+    // CampaignState state = campaign::GetCampaignState();
     // PChar->pushPacket<GP_SERV_COMMAND_INFLUENCE::CAMPAIGN>(PChar, state, 0);
     // PChar->pushPacket<GP_SERV_COMMAND_INFLUENCE::CAMPAIGN>(PChar, state, 1);
     PChar->pushPacket<GP_SERV_COMMAND_INFLUENCE::COLONIZATION>(PChar);

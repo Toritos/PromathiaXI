@@ -971,7 +971,6 @@ INSERT INTO `mob_skill_lists` VALUES ('ShadowLord',224,668);
 INSERT INTO `mob_skill_lists` VALUES ('ShadowLord',224,671);
 INSERT INTO `mob_skill_lists` VALUES ('ShadowLord',224,672);
 INSERT INTO `mob_skill_lists` VALUES ('ShadowLord',224,673);
-INSERT INTO `mob_skill_lists` VALUES ('ShadowLord',225,669);
 INSERT INTO `mob_skill_lists` VALUES ('Sheep',226,260);
 INSERT INTO `mob_skill_lists` VALUES ('Sheep',226,261);
 INSERT INTO `mob_skill_lists` VALUES ('Sheep',226,262);
@@ -2207,6 +2206,7 @@ INSERT INTO `mob_skill_lists` VALUES ('Zeid',480,980); -- Freeze Bite
 INSERT INTO `mob_skill_lists` VALUES ('Zeid',480,981); -- GroundStrike
 INSERT INTO `mob_skill_lists` VALUES ('Zeid',480,982); -- Abyssal Drain
 INSERT INTO `mob_skill_lists` VALUES ('Zeid',480,983); -- Abyssal strike
+INSERT INTO `mob_skill_lists` VALUES ('Zeid',480,987); -- Shockwave
 INSERT INTO `mob_skill_lists` VALUES ('Ajido-Marujido',481,988); -- Warp In (Works the same as Ealdnarche's)
 INSERT INTO `mob_skill_lists` VALUES ('Ajido-Marujido',481,989); -- Warp Out (Works the same as Ealdnarche's)
 INSERT INTO `mob_skill_lists` VALUES ('Volker',482,973); -- Red Lotus Blade
@@ -4189,12 +4189,12 @@ INSERT INTO `mob_skill_lists` VALUES ('Prehistoric_Pigeons',2064,922); -- Blind 
 INSERT INTO `mob_skill_lists` VALUES ('Prehistoric_Pigeons',2064,923); -- Giga Scream
 INSERT INTO `mob_skill_lists` VALUES ('Prehistoric_Pigeons',2064,924); -- Dread Dive
 
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,472);  -- Grave Reel
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,473);  -- Ectosmash
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,474);  -- Fear Touch
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,475);  -- Terror Touch
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,1339); -- Bane
-INSERT INTO `mob_skill_lists` VALUES ('Celery',2067,477);  -- Dark Sphere
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,472);  -- Grave Reel
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,473);  -- Ectosmash
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,474);  -- Fear Touch
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,475);  -- Terror Touch
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,1339); -- Bane
+INSERT INTO `mob_skill_lists` VALUES ('Celery',2065,477);  -- Dark Sphere
 
 INSERT INTO `mob_skill_lists` VALUES ('Spell_Spitter_Spilospok',2066,1082); -- Smokebomb
 INSERT INTO `mob_skill_lists` VALUES ('Spell_Spitter_Spilospok',2066,1084); -- Crispy Candle

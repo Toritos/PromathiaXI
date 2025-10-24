@@ -266,11 +266,11 @@ INSERT INTO `mob_groups` VALUES (55,6812,5,'Little_Wingman',0,128,0,0,0,0,0,0);
 -- ------------------------------------------------------------
 -- Bearclaw_Pinnacle (Zone 6)
 -- ------------------------------------------------------------
-
 INSERT INTO `mob_groups` VALUES (1,3684,6,'Snoll_Tzar',0,128,0,7000,0,65,66,0);
 INSERT INTO `mob_groups` VALUES (2,384,6,'Bearclaw_Rabbit',0,128,0,0,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (3,383,6,'Bearclaw_Leveret',0,128,0,0,0,75,75,0);
-INSERT INTO `mob_groups` VALUES (4,3687,6,'Snow_Devil',0,128,0,0,0,75,75,0);
+INSERT INTO `mob_groups` VALUES (4,7100,6,'Snow_Devil_war',0,128,0,2000,0,78,78,0);
+INSERT INTO `mob_groups` VALUES (9,7099,6,'Snow_Devil_blm',0,128,0,2000,4000,78,78,0);
 INSERT INTO `mob_groups` VALUES (5,1190,6,'Eldertaur',0,128,0,4500,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (6,2668,6,'Mindertaur',0,128,0,4500,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (7,196,6,'Apis',0,128,0,13000,0,81,81,0);
@@ -11017,7 +11017,7 @@ INSERT INTO `mob_groups` VALUES (2,6770,159,'Bloodsucker_fished',0,128,174,0,0,5
 INSERT INTO `mob_groups` VALUES (3,6782,159,'Bouncing_Ball_fished',0,128,343,0,0,65,67,0);
 
 INSERT INTO `mob_groups` VALUES (4,501,159,'Bonze_Marberry',900,0,338,7000,0,66,66,0);
-INSERT INTO `mob_groups` VALUES (5,4039,159,'Trompe_LOeil',0,128,0,0,0,60,60,0);
+INSERT INTO `mob_groups` VALUES (5,4039,159,'Trompe_LOeil',0,128,0,17000,0,60,60,0);
 INSERT INTO `mob_groups` VALUES (6,787,159,'Cook_Solberry',0,128,0,0,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (7,786,159,'Cook_Nalberry',0,128,0,0,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (8,785,159,'Cook_Minberry',0,128,0,0,0,75,75,0);
@@ -11395,9 +11395,9 @@ INSERT INTO `mob_groups` VALUES (127,5146,164,'Laidly_Laurence',0,128,0,0,9999,9
 
 INSERT INTO `mob_groups` VALUES (1,3579,165,'Shadow_Lord_1',0,128,0,10000,0,60,60,0);
 INSERT INTO `mob_groups` VALUES (2,4593,165,'Shadow_Lord_2',0,128,0,4000,0,60,60,0);
-INSERT INTO `mob_groups` VALUES (3,4498,165,'Zeid',0,128,0,0,0,75,76,0);
-INSERT INTO `mob_groups` VALUES (4,4498,165,'Zeid',0,128,0,0,0,75,78,0);
-INSERT INTO `mob_groups` VALUES (5,3580,165,'Shadow_of_Rage',0,128,0,0,0,75,75,0);
+INSERT INTO `mob_groups` VALUES (3,4498,165,'Zeid',0,128,0,8500,8500,75,76,0);
+INSERT INTO `mob_groups` VALUES (4,4498,165,'Zeid',0,128,0,8500,8500,75,78,0);
+INSERT INTO `mob_groups` VALUES (5,3580,165,'Shadow_of_Rage',0,128,0,500,0,75,75,0);
 INSERT INTO `mob_groups` VALUES (6,1788,165,'Grand_Marquis_Chomiel',0,128,0,0,0,60,60,0);
 INSERT INTO `mob_groups` VALUES (7,1130,165,'Duke_Amduscias',0,128,0,0,0,60,60,0);
 INSERT INTO `mob_groups` VALUES (8,811,165,'Count_Andromalius',0,128,0,0,0,60,60,0);
@@ -11420,7 +11420,7 @@ INSERT INTO `mob_groups` VALUES (24,0,165,'Lion',0,128,0,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (25,0,165,'Lion',0,128,0,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (26,0,165,'Zeid',0,128,0,0,0,0,0,0);
 INSERT INTO `mob_groups` VALUES (27,0,165,'Aldo',0,128,0,0,0,0,0,0);
-INSERT INTO `mob_groups` VALUES (28,4249,165,'Volker',0,128,0,0,0,75,75,1); -- ally
+INSERT INTO `mob_groups` VALUES (28,4249,165,'Volker',0,128,0,1300,0,75,75,1); -- ally
 
 -- ------------------------------------------------------------
 -- Ranguemont_Pass (Zone 166)

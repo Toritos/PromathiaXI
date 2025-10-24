@@ -4,6 +4,8 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x008_enterzone.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x009_message.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x009_message.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x00a_login.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x00a_login.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x00b_logout.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x00b_logout.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x017_chat_std.h
@@ -79,6 +81,12 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x044_extended_job_mon.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x044_extended_job_pup.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x044_extended_job_pup.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04b_pbx_result.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04b_pbx_result.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04d_fragments_fishranking.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04d_fragments_fishranking.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04d_fragments_servmes.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x04d_fragments_servmes.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x04f_equip_clear.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x050_equip_list.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x050_equip_list.cpp
@@ -90,6 +98,12 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x053_systemmes.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x055_scenarioitem.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x055_scenarioitem.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission_other.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission_other.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission_tvr.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x056_mission_tvr.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x057_weather.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x057_weather.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x058_assist.h
@@ -104,6 +118,8 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x05a_motionmes.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x05d_pendingstr.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x05d_pendingstr.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x05e_conquest.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x05e_conquest.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x05f_music.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x05f_music.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x061_clistatus.h
@@ -138,6 +154,8 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x077_entity_vis.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x077_entity_vis.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x070_combine_inf.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x075_battlefield.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x075_battlefield.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x076_group_effects.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x076_group_effects.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x082_guild_buy.h
@@ -170,6 +188,10 @@ set(PACKET_S2C_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0c8_group_tbl.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0fa_myroom_operation.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0fa_myroom_operation.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x0c9_equip_inspect_equipment.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x0c9_equip_inspect_equipment.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x0c9_equip_inspect_general.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/0x0c9_equip_inspect_general.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0ca_inspect_message.h
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0ca_inspect_message.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/0x0cc_linkshell_message.h
